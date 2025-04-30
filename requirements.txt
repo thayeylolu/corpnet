@@ -1,0 +1,29 @@
+# Core
+python-dotenv==1.0.1
+requests==2.31.0
+
+# Data handling
+pandas==2.2.2
+
+# Graph analysis
+networkx==3.2.1
+
+# Neo4j integration
+neo4j==5.14.1
+
+# Jupyter (for notebooks)
+notebook==7.1.0
+ipykernel==6.29.3
+
+# Visualization (optional but helpful)
+matplotlib==3.8.4
+pyvis==0.3.2  # for interactive network graphs in notebooks
+
+# Testing
+pytest==8.1.1
+pytest-cov==4.1.0
+pytest-mock==3.10.0 # for mocking in tests
+pytest-asyncio==0.21.0 # for async tests            
+
+networkx>=3.2,<4.0
+neo4j>=5.0,<6.0
